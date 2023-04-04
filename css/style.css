@@ -232,9 +232,10 @@ text-align: center;}
     transition: all 0.4s ease;
     background-color: #fff;
     border: 1px solid #ff4d29;
-   
 }
-
+.about_icons{
+    color: #d64022;
+}
 
 
 #milestone {
