@@ -221,16 +221,18 @@ text-align: center;}
 }
 
 /* ABOUT US */
-.about_us_btn,.blog_btn{
+.about_us_btn{
     text-decoration: none;
     background-color: #d64022;
     color: #fff;
     padding: 10px;
 }
-.about_us_btn,.blog_btn:hover{
-     background-color: #fff;
-     border: 1px solid;
+.about_us_btn:hover{
+    color: #f9d509;
+   
 }
+
+
 
 #milestone {
     background: linear-gradient(rgba(255, 77, 41, 0.85), rgba(255, 77, 41, 0.85)), url(../img/bg_banner1.jpg);
@@ -443,6 +445,16 @@ text-align: center;}
 .card_title:hover{
  color: rgba(246, 43, 2, 0.849);
  cursor: pointer;
+}
+.blog_btn{
+    text-decoration: none;
+    background-color: #d64022;
+    padding: 10px;
+    color: #fff;
+}
+.blog_btn:hover{
+    color: #f9d509;
+      
 }
 
 /* FOOTER */
