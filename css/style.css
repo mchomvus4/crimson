@@ -44,7 +44,7 @@ a:hover {
 
 section {
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
 }
 
 .text-brand {
@@ -220,6 +220,17 @@ text-align: center;}
     width: 90px;
 }
 
+/* ABOUT US */
+.about_us_btn,.blog_btn{
+    text-decoration: none;
+    background-color: #d64022;
+    color: #fff;
+    padding: 10px;
+}
+.about_us_btn,.blog_btn:hover{
+     background-color: #fff;
+     border: 1px solid;
+}
 
 #milestone {
     background: linear-gradient(rgba(255, 77, 41, 0.85), rgba(255, 77, 41, 0.85)), url(../img/bg_banner1.jpg);
@@ -397,7 +408,7 @@ text-align: center;}
 .review .stars {
     color: var(--brand);
 }
-
+/* BLOG POST */
 .blog-post {
     position: relative;
     background-color: #fff;
@@ -429,7 +440,12 @@ text-align: center;}
     color: var(--brand);
    
 }
+.card_title:hover{
+ color: rgba(246, 43, 2, 0.849);
+ cursor: pointer;
+}
 
+/* FOOTER */
 footer {
     background: linear-gradient(0deg, rgba(8, 32, 50, 0.9), rgba(8, 32, 50, 0.9)), url(../img/bg_banner1.jpg), #082032;;
     background-size: cover;
@@ -499,11 +515,40 @@ input.form-control {
 }
 .card_body{
     box-shadow: var(--shadow);
+    padding: 20px;
+    line-height: 2rem;
 }
 .missin_vission{
     margin-top: 10px;
 }
 .logo_image{
+    width: 90px;
+    height: 90px;
+}
+/* single_post  */
+.social_icon{
+    font-size: 30px;
+}
+
+.f_color{
+    color: #2071c2;
+}
+.i_color{
+color: #992a58;
+}
+.t_color{
+   color: #3babec; 
+}
+.w_color{
+    color: #0bb524; 
+}
+.post_category_image{
     width: 80px;
     height: 80px;
+}
+.post_category_list{
+    list-style: none;
+}
+.single_blog{
+    object-fit: cover;
 }
