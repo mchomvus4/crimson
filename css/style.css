@@ -570,3 +570,37 @@ color: #992a58;
 .single_blog{
     object-fit: cover;
 }
+
+/* SUBSCRIBE */
+.news_letter{
+    margin-top: 20px;
+}
+.email-box{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.email-box i{
+    background: #f1a308;
+    width: 40px;
+    line-height: 40px;
+}
+.tbox,.btn_sub{
+    border: none;
+    outline: none;
+}
+.tbox{
+    width: 0px;
+    transition: 0.6s;
+}
+.email-box:hover > .tbox,.tbox:focus{
+    width: 260px;
+    padding: 0 10px;
+}
+.btn_sub{
+    background: #f1a308;
+    color: #fff;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
